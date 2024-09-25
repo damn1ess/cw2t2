@@ -1,4 +1,4 @@
-package com.skypro.cw2;
+package com.skypro.cw2.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

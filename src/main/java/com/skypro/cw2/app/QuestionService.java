@@ -1,4 +1,4 @@
-package com.skypro.cw2;
+package com.skypro.cw2.app;
 
 import java.util.List;
 

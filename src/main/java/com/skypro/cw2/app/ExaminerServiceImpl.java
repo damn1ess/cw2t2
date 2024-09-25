@@ -1,14 +1,15 @@
-package com.skypro.cw2;
+package com.skypro.cw2.app;
 
+import com.skypro.cw2.exceptions.BadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
 @Service
 public class ExaminerServiceImpl implements ExaminerService {
-    public com.skypro.coursework2.JavaQuestionService JavaQuestionService;
     @Autowired
     private QuestionService javaQuestionService;
 
@@ -24,7 +25,7 @@ public class ExaminerServiceImpl implements ExaminerService {
         }
 
         if (uniqueQuestions.size() < amount) {
-            throw new BadRequestException("Запрошено слишком большое количество вопросов.");
+            throw new BadRequestException("Not enough unique questions available.");
         }
 
         return List.copyOf(uniqueQuestions);

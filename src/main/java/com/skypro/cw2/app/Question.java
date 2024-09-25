@@ -1,4 +1,4 @@
-package com.skypro.cw2;
+package com.skypro.cw2.app;
 
 public class Question {
     private String question;

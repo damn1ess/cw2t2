@@ -1,4 +1,4 @@
-package com.skypro.cw2;
+package com.skypro.cw2.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

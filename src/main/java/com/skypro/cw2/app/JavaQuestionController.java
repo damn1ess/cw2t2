@@ -1,4 +1,4 @@
-package com.skypro.cw2;
+package com.skypro.cw2.app;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
