@@ -1,4 +1,4 @@
-package com.skypro.cw2.app;
+package com.skypro.cw2;
 
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;

@@ -1,6 +1,4 @@
-package com.skypro.cw2.test;
-import com.skypro.cw2.app.JavaQuestionService;
-import com.skypro.cw2.app.Question;
+package com.skypro.cw2;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

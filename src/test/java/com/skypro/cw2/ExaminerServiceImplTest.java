@@ -1,8 +1,5 @@
-package com.skypro.cw2.test;
+package com.skypro.cw2;
 
-import com.skypro.cw2.exceptions.BadRequestException;
-import com.skypro.cw2.app.ExaminerServiceImpl;
-import com.skypro.cw2.app.JavaQuestionService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;

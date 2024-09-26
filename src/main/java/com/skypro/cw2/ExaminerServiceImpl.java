@@ -1,6 +1,5 @@
-package com.skypro.cw2.app;
+package com.skypro.cw2;
 
-import com.skypro.cw2.exceptions.BadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,4 @@
-package com.skypro.cw2.app;
-
-import com.skypro.cw2.exceptions.BadRequestException;
+package com.skypro.cw2;
 
 import java.util.List;
 
